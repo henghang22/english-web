@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T08:00:00",
+    "updated_at": "2026-01-01T08:00:00"
+  },
+  {
+    "id": 2,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T08:01:00",
+    "updated_at": "2026-01-01T08:01:00"
+  },
+  {
+    "id": 3,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T08:02:00",
+    "updated_at": "2026-01-01T08:02:00"
+  },
+  {
+    "id": 4,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T08:03:00",
+    "updated_at": "2026-01-01T08:03:00"
+  },
+  {
+    "id": 5,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T08:04:00",
+    "updated_at": "2026-01-01T08:04:00"
+  },
+  {
+    "id": 6,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T08:05:00",
+    "updated_at": "2026-01-01T08:05:00"
+  },
+  {
+    "id": 7,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T08:06:00",
+    "updated_at": "2026-01-01T08:06:00"
+  },
+  {
+    "id": 8,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T08:07:00",
+    "updated_at": "2026-01-01T08:07:00"
+  },
+  {
+    "id": 9,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T08:08:00",
+    "updated_at": "2026-01-01T08:08:00"
+  },
+  {
+    "id": 10,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T08:09:00",
+    "updated_at": "2026-01-01T08:09:00"
+  },
+  {
+    "id": 11,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T08:10:00",
+    "updated_at": "2026-01-01T08:10:00"
+  },
+  {
+    "id": 12,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T08:11:00",
+    "updated_at": "2026-01-01T08:11:00"
+  },
+  {
+    "id": 13,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T08:12:00",
+    "updated_at": "2026-01-01T08:12:00"
+  },
+  {
+    "id": 14,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T08:13:00",
+    "updated_at": "2026-01-01T08:13:00"
+  },
+  {
+    "id": 15,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T08:14:00",
+    "updated_at": "2026-01-01T08:14:00"
+  },
+  {
+    "id": 16,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T08:15:00",
+    "updated_at": "2026-01-01T08:15:00"
+  },
+  {
+    "id": 17,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T08:16:00",
+    "updated_at": "2026-01-01T08:16:00"
+  },
+  {
+    "id": 18,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T08:17:00",
+    "updated_at": "2026-01-01T08:17:00"
+  },
+  {
+    "id": 19,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T08:18:00",
+    "updated_at": "2026-01-01T08:18:00"
+  },
+  {
+    "id": 20,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T08:19:00",
+    "updated_at": "2026-01-01T08:19:00"
+  },
+  {
+    "id": 21,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T08:20:00",
+    "updated_at": "2026-01-01T08:20:00"
+  },
+  {
+    "id": 22,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T08:21:00",
+    "updated_at": "2026-01-01T08:21:00"
+  },
+  {
+    "id": 23,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T08:22:00",
+    "updated_at": "2026-01-01T08:22:00"
+  },
+  {
+    "id": 24,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T08:23:00",
+    "updated_at": "2026-01-01T08:23:00"
+  },
+  {
+    "id": 25,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T08:24:00",
+    "updated_at": "2026-01-01T08:24:00"
+  },
+  {
+    "id": 26,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T08:25:00",
+    "updated_at": "2026-01-01T08:25:00"
+  },
+  {
+    "id": 27,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T08:26:00",
+    "updated_at": "2026-01-01T08:26:00"
+  },
+  {
+    "id": 28,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T08:27:00",
+    "updated_at": "2026-01-01T08:27:00"
+  },
+  {
+    "id": 29,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T08:28:00",
+    "updated_at": "2026-01-01T08:28:00"
+  },
+  {
+    "id": 30,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T08:29:00",
+    "updated_at": "2026-01-01T08:29:00"
+  },
+  {
+    "id": 31,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T08:30:00",
+    "updated_at": "2026-01-01T08:30:00"
+  },
+  {
+    "id": 32,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T08:31:00",
+    "updated_at": "2026-01-01T08:31:00"
+  },
+  {
+    "id": 33,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T08:32:00",
+    "updated_at": "2026-01-01T08:32:00"
+  },
+  {
+    "id": 34,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T08:33:00",
+    "updated_at": "2026-01-01T08:33:00"
+  },
+  {
+    "id": 35,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T08:34:00",
+    "updated_at": "2026-01-01T08:34:00"
+  },
+  {
+    "id": 36,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T08:35:00",
+    "updated_at": "2026-01-01T08:35:00"
+  },
+  {
+    "id": 37,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T08:36:00",
+    "updated_at": "2026-01-01T08:36:00"
+  },
+  {
+    "id": 38,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T08:37:00",
+    "updated_at": "2026-01-01T08:37:00"
+  },
+  {
+    "id": 39,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T08:38:00",
+    "updated_at": "2026-01-01T08:38:00"
+  },
+  {
+    "id": 40,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T08:39:00",
+    "updated_at": "2026-01-01T08:39:00"
+  },
+  {
+    "id": 41,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T08:40:00",
+    "updated_at": "2026-01-01T08:40:00"
+  },
+  {
+    "id": 42,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T08:41:00",
+    "updated_at": "2026-01-01T08:41:00"
+  },
+  {
+    "id": 43,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T08:42:00",
+    "updated_at": "2026-01-01T08:42:00"
+  },
+  {
+    "id": 44,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T08:43:00",
+    "updated_at": "2026-01-01T08:43:00"
+  },
+  {
+    "id": 45,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T08:44:00",
+    "updated_at": "2026-01-01T08:44:00"
+  },
+  {
+    "id": 46,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T08:45:00",
+    "updated_at": "2026-01-01T08:45:00"
+  },
+  {
+    "id": 47,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T08:46:00",
+    "updated_at": "2026-01-01T08:46:00"
+  },
+  {
+    "id": 48,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T08:47:00",
+    "updated_at": "2026-01-01T08:47:00"
+  },
+  {
+    "id": 49,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T08:48:00",
+    "updated_at": "2026-01-01T08:48:00"
+  },
+  {
+    "id": 50,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T08:49:00",
+    "updated_at": "2026-01-01T08:49:00"
+  },
+  {
+    "id": 51,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T08:50:00",
+    "updated_at": "2026-01-01T08:50:00"
+  },
+  {
+    "id": 52,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T08:51:00",
+    "updated_at": "2026-01-01T08:51:00"
+  },
+  {
+    "id": 53,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T08:52:00",
+    "updated_at": "2026-01-01T08:52:00"
+  },
+  {
+    "id": 54,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T08:53:00",
+    "updated_at": "2026-01-01T08:53:00"
+  },
+  {
+    "id": 55,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T08:54:00",
+    "updated_at": "2026-01-01T08:54:00"
+  },
+  {
+    "id": 56,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T08:55:00",
+    "updated_at": "2026-01-01T08:55:00"
+  },
+  {
+    "id": 57,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T08:56:00",
+    "updated_at": "2026-01-01T08:56:00"
+  },
+  {
+    "id": 58,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T08:57:00",
+    "updated_at": "2026-01-01T08:57:00"
+  },
+  {
+    "id": 59,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T08:58:00",
+    "updated_at": "2026-01-01T08:58:00"
+  },
+  {
+    "id": 60,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T08:59:00",
+    "updated_at": "2026-01-01T08:59:00"
+  },
+  {
+    "id": 61,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T09:00:00",
+    "updated_at": "2026-01-01T09:00:00"
+  },
+  {
+    "id": 62,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T09:01:00",
+    "updated_at": "2026-01-01T09:01:00"
+  },
+  {
+    "id": 63,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T09:02:00",
+    "updated_at": "2026-01-01T09:02:00"
+  },
+  {
+    "id": 64,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T09:03:00",
+    "updated_at": "2026-01-01T09:03:00"
+  },
+  {
+    "id": 65,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T09:04:00",
+    "updated_at": "2026-01-01T09:04:00"
+  },
+  {
+    "id": 66,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T09:05:00",
+    "updated_at": "2026-01-01T09:05:00"
+  },
+  {
+    "id": 67,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T09:06:00",
+    "updated_at": "2026-01-01T09:06:00"
+  },
+  {
+    "id": 68,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T09:07:00",
+    "updated_at": "2026-01-01T09:07:00"
+  },
+  {
+    "id": 69,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T09:08:00",
+    "updated_at": "2026-01-01T09:08:00"
+  },
+  {
+    "id": 70,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T09:09:00",
+    "updated_at": "2026-01-01T09:09:00"
+  },
+  {
+    "id": 71,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T09:10:00",
+    "updated_at": "2026-01-01T09:10:00"
+  },
+  {
+    "id": 72,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T09:11:00",
+    "updated_at": "2026-01-01T09:11:00"
+  },
+  {
+    "id": 73,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T09:12:00",
+    "updated_at": "2026-01-01T09:12:00"
+  },
+  {
+    "id": 74,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T09:13:00",
+    "updated_at": "2026-01-01T09:13:00"
+  },
+  {
+    "id": 75,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T09:14:00",
+    "updated_at": "2026-01-01T09:14:00"
+  },
+  {
+    "id": 76,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T09:15:00",
+    "updated_at": "2026-01-01T09:15:00"
+  },
+  {
+    "id": 77,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T09:16:00",
+    "updated_at": "2026-01-01T09:16:00"
+  },
+  {
+    "id": 78,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T09:17:00",
+    "updated_at": "2026-01-01T09:17:00"
+  },
+  {
+    "id": 79,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T09:18:00",
+    "updated_at": "2026-01-01T09:18:00"
+  },
+  {
+    "id": 80,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T09:19:00",
+    "updated_at": "2026-01-01T09:19:00"
+  },
+  {
+    "id": 81,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T09:20:00",
+    "updated_at": "2026-01-01T09:20:00"
+  },
+  {
+    "id": 82,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T09:21:00",
+    "updated_at": "2026-01-01T09:21:00"
+  },
+  {
+    "id": 83,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T09:22:00",
+    "updated_at": "2026-01-01T09:22:00"
+  },
+  {
+    "id": 84,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T09:23:00",
+    "updated_at": "2026-01-01T09:23:00"
+  },
+  {
+    "id": 85,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T09:24:00",
+    "updated_at": "2026-01-01T09:24:00"
+  },
+  {
+    "id": 86,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T09:25:00",
+    "updated_at": "2026-01-01T09:25:00"
+  },
+  {
+    "id": 87,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T09:26:00",
+    "updated_at": "2026-01-01T09:26:00"
+  },
+  {
+    "id": 88,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T09:27:00",
+    "updated_at": "2026-01-01T09:27:00"
+  },
+  {
+    "id": 89,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T09:28:00",
+    "updated_at": "2026-01-01T09:28:00"
+  },
+  {
+    "id": 90,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T09:29:00",
+    "updated_at": "2026-01-01T09:29:00"
+  },
+  {
+    "id": 91,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T09:30:00",
+    "updated_at": "2026-01-01T09:30:00"
+  },
+  {
+    "id": 92,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T09:31:00",
+    "updated_at": "2026-01-01T09:31:00"
+  },
+  {
+    "id": 93,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T09:32:00",
+    "updated_at": "2026-01-01T09:32:00"
+  },
+  {
+    "id": 94,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T09:33:00",
+    "updated_at": "2026-01-01T09:33:00"
+  },
+  {
+    "id": 95,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T09:34:00",
+    "updated_at": "2026-01-01T09:34:00"
+  },
+  {
+    "id": 96,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T09:35:00",
+    "updated_at": "2026-01-01T09:35:00"
+  },
+  {
+    "id": 97,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T09:36:00",
+    "updated_at": "2026-01-01T09:36:00"
+  },
+  {
+    "id": 98,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T09:37:00",
+    "updated_at": "2026-01-01T09:37:00"
+  },
+  {
+    "id": 99,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T09:38:00",
+    "updated_at": "2026-01-01T09:38:00"
+  },
+  {
+    "id": 100,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T09:39:00",
+    "updated_at": "2026-01-01T09:39:00"
+  },
+  {
+    "id": 101,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T09:40:00",
+    "updated_at": "2026-01-01T09:40:00"
+  },
+  {
+    "id": 102,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T09:41:00",
+    "updated_at": "2026-01-01T09:41:00"
+  },
+  {
+    "id": 103,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T09:42:00",
+    "updated_at": "2026-01-01T09:42:00"
+  },
+  {
+    "id": 104,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T09:43:00",
+    "updated_at": "2026-01-01T09:43:00"
+  },
+  {
+    "id": 105,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T09:44:00",
+    "updated_at": "2026-01-01T09:44:00"
+  },
+  {
+    "id": 106,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T09:45:00",
+    "updated_at": "2026-01-01T09:45:00"
+  },
+  {
+    "id": 107,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T09:46:00",
+    "updated_at": "2026-01-01T09:46:00"
+  },
+  {
+    "id": 108,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T09:47:00",
+    "updated_at": "2026-01-01T09:47:00"
+  },
+  {
+    "id": 109,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T09:48:00",
+    "updated_at": "2026-01-01T09:48:00"
+  },
+  {
+    "id": 110,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T09:49:00",
+    "updated_at": "2026-01-01T09:49:00"
+  },
+  {
+    "id": 111,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T09:50:00",
+    "updated_at": "2026-01-01T09:50:00"
+  },
+  {
+    "id": 112,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T09:51:00",
+    "updated_at": "2026-01-01T09:51:00"
+  },
+  {
+    "id": 113,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T09:52:00",
+    "updated_at": "2026-01-01T09:52:00"
+  },
+  {
+    "id": 114,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T09:53:00",
+    "updated_at": "2026-01-01T09:53:00"
+  },
+  {
+    "id": 115,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T09:54:00",
+    "updated_at": "2026-01-01T09:54:00"
+  },
+  {
+    "id": 116,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T09:55:00",
+    "updated_at": "2026-01-01T09:55:00"
+  },
+  {
+    "id": 117,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T09:56:00",
+    "updated_at": "2026-01-01T09:56:00"
+  },
+  {
+    "id": 118,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T09:57:00",
+    "updated_at": "2026-01-01T09:57:00"
+  },
+  {
+    "id": 119,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T09:58:00",
+    "updated_at": "2026-01-01T09:58:00"
+  },
+  {
+    "id": 120,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T09:59:00",
+    "updated_at": "2026-01-01T09:59:00"
+  },
+  {
+    "id": 121,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T10:00:00",
+    "updated_at": "2026-01-01T10:00:00"
+  },
+  {
+    "id": 122,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T10:01:00",
+    "updated_at": "2026-01-01T10:01:00"
+  },
+  {
+    "id": 123,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T10:02:00",
+    "updated_at": "2026-01-01T10:02:00"
+  },
+  {
+    "id": 124,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T10:03:00",
+    "updated_at": "2026-01-01T10:03:00"
+  },
+  {
+    "id": 125,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T10:04:00",
+    "updated_at": "2026-01-01T10:04:00"
+  },
+  {
+    "id": 126,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T10:05:00",
+    "updated_at": "2026-01-01T10:05:00"
+  },
+  {
+    "id": 127,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T10:06:00",
+    "updated_at": "2026-01-01T10:06:00"
+  },
+  {
+    "id": 128,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T10:07:00",
+    "updated_at": "2026-01-01T10:07:00"
+  },
+  {
+    "id": 129,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T10:08:00",
+    "updated_at": "2026-01-01T10:08:00"
+  },
+  {
+    "id": 130,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T10:09:00",
+    "updated_at": "2026-01-01T10:09:00"
+  },
+  {
+    "id": 131,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T10:10:00",
+    "updated_at": "2026-01-01T10:10:00"
+  },
+  {
+    "id": 132,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T10:11:00",
+    "updated_at": "2026-01-01T10:11:00"
+  },
+  {
+    "id": 133,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T10:12:00",
+    "updated_at": "2026-01-01T10:12:00"
+  },
+  {
+    "id": 134,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T10:13:00",
+    "updated_at": "2026-01-01T10:13:00"
+  },
+  {
+    "id": 135,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T10:14:00",
+    "updated_at": "2026-01-01T10:14:00"
+  },
+  {
+    "id": 136,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T10:15:00",
+    "updated_at": "2026-01-01T10:15:00"
+  },
+  {
+    "id": 137,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T10:16:00",
+    "updated_at": "2026-01-01T10:16:00"
+  },
+  {
+    "id": 138,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T10:17:00",
+    "updated_at": "2026-01-01T10:17:00"
+  },
+  {
+    "id": 139,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T10:18:00",
+    "updated_at": "2026-01-01T10:18:00"
+  },
+  {
+    "id": 140,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T10:19:00",
+    "updated_at": "2026-01-01T10:19:00"
+  },
+  {
+    "id": 141,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T10:20:00",
+    "updated_at": "2026-01-01T10:20:00"
+  },
+  {
+    "id": 142,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T10:21:00",
+    "updated_at": "2026-01-01T10:21:00"
+  },
+  {
+    "id": 143,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T10:22:00",
+    "updated_at": "2026-01-01T10:22:00"
+  },
+  {
+    "id": 144,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T10:23:00",
+    "updated_at": "2026-01-01T10:23:00"
+  },
+  {
+    "id": 145,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T10:24:00",
+    "updated_at": "2026-01-01T10:24:00"
+  },
+  {
+    "id": 146,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T10:25:00",
+    "updated_at": "2026-01-01T10:25:00"
+  },
+  {
+    "id": 147,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T10:26:00",
+    "updated_at": "2026-01-01T10:26:00"
+  },
+  {
+    "id": 148,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T10:27:00",
+    "updated_at": "2026-01-01T10:27:00"
+  },
+  {
+    "id": 149,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T10:28:00",
+    "updated_at": "2026-01-01T10:28:00"
+  },
+  {
+    "id": 150,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T10:29:00",
+    "updated_at": "2026-01-01T10:29:00"
+  },
+  {
+    "id": 151,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T10:30:00",
+    "updated_at": "2026-01-01T10:30:00"
+  },
+  {
+    "id": 152,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T10:31:00",
+    "updated_at": "2026-01-01T10:31:00"
+  },
+  {
+    "id": 153,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T10:32:00",
+    "updated_at": "2026-01-01T10:32:00"
+  },
+  {
+    "id": 154,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T10:33:00",
+    "updated_at": "2026-01-01T10:33:00"
+  },
+  {
+    "id": 155,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T10:34:00",
+    "updated_at": "2026-01-01T10:34:00"
+  },
+  {
+    "id": 156,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T10:35:00",
+    "updated_at": "2026-01-01T10:35:00"
+  },
+  {
+    "id": 157,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T10:36:00",
+    "updated_at": "2026-01-01T10:36:00"
+  },
+  {
+    "id": 158,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T10:37:00",
+    "updated_at": "2026-01-01T10:37:00"
+  },
+  {
+    "id": 159,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T10:38:00",
+    "updated_at": "2026-01-01T10:38:00"
+  },
+  {
+    "id": 160,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T10:39:00",
+    "updated_at": "2026-01-01T10:39:00"
+  },
+  {
+    "id": 161,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T10:40:00",
+    "updated_at": "2026-01-01T10:40:00"
+  },
+  {
+    "id": 162,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T10:41:00",
+    "updated_at": "2026-01-01T10:41:00"
+  },
+  {
+    "id": 163,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T10:42:00",
+    "updated_at": "2026-01-01T10:42:00"
+  },
+  {
+    "id": 164,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T10:43:00",
+    "updated_at": "2026-01-01T10:43:00"
+  },
+  {
+    "id": 165,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T10:44:00",
+    "updated_at": "2026-01-01T10:44:00"
+  },
+  {
+    "id": 166,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T10:45:00",
+    "updated_at": "2026-01-01T10:45:00"
+  },
+  {
+    "id": 167,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T10:46:00",
+    "updated_at": "2026-01-01T10:46:00"
+  },
+  {
+    "id": 168,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T10:47:00",
+    "updated_at": "2026-01-01T10:47:00"
+  },
+  {
+    "id": 169,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T10:48:00",
+    "updated_at": "2026-01-01T10:48:00"
+  },
+  {
+    "id": 170,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T10:49:00",
+    "updated_at": "2026-01-01T10:49:00"
+  },
+  {
+    "id": 171,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T10:50:00",
+    "updated_at": "2026-01-01T10:50:00"
+  },
+  {
+    "id": 172,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T10:51:00",
+    "updated_at": "2026-01-01T10:51:00"
+  },
+  {
+    "id": 173,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T10:52:00",
+    "updated_at": "2026-01-01T10:52:00"
+  },
+  {
+    "id": 174,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T10:53:00",
+    "updated_at": "2026-01-01T10:53:00"
+  },
+  {
+    "id": 175,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T10:54:00",
+    "updated_at": "2026-01-01T10:54:00"
+  },
+  {
+    "id": 176,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T10:55:00",
+    "updated_at": "2026-01-01T10:55:00"
+  },
+  {
+    "id": 177,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T10:56:00",
+    "updated_at": "2026-01-01T10:56:00"
+  },
+  {
+    "id": 178,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T10:57:00",
+    "updated_at": "2026-01-01T10:57:00"
+  },
+  {
+    "id": 179,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T10:58:00",
+    "updated_at": "2026-01-01T10:58:00"
+  },
+  {
+    "id": 180,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T10:59:00",
+    "updated_at": "2026-01-01T10:59:00"
+  },
+  {
+    "id": 181,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T11:00:00",
+    "updated_at": "2026-01-01T11:00:00"
+  },
+  {
+    "id": 182,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T11:01:00",
+    "updated_at": "2026-01-01T11:01:00"
+  },
+  {
+    "id": 183,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T11:02:00",
+    "updated_at": "2026-01-01T11:02:00"
+  },
+  {
+    "id": 184,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T11:03:00",
+    "updated_at": "2026-01-01T11:03:00"
+  },
+  {
+    "id": 185,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T11:04:00",
+    "updated_at": "2026-01-01T11:04:00"
+  },
+  {
+    "id": 186,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T11:05:00",
+    "updated_at": "2026-01-01T11:05:00"
+  },
+  {
+    "id": 187,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T11:06:00",
+    "updated_at": "2026-01-01T11:06:00"
+  },
+  {
+    "id": 188,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T11:07:00",
+    "updated_at": "2026-01-01T11:07:00"
+  },
+  {
+    "id": 189,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T11:08:00",
+    "updated_at": "2026-01-01T11:08:00"
+  },
+  {
+    "id": 190,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T11:09:00",
+    "updated_at": "2026-01-01T11:09:00"
+  },
+  {
+    "id": 191,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T11:10:00",
+    "updated_at": "2026-01-01T11:10:00"
+  },
+  {
+    "id": 192,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T11:11:00",
+    "updated_at": "2026-01-01T11:11:00"
+  },
+  {
+    "id": 193,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T11:12:00",
+    "updated_at": "2026-01-01T11:12:00"
+  },
+  {
+    "id": 194,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T11:13:00",
+    "updated_at": "2026-01-01T11:13:00"
+  },
+  {
+    "id": 195,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T11:14:00",
+    "updated_at": "2026-01-01T11:14:00"
+  },
+  {
+    "id": 196,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T11:15:00",
+    "updated_at": "2026-01-01T11:15:00"
+  },
+  {
+    "id": 197,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T11:16:00",
+    "updated_at": "2026-01-01T11:16:00"
+  },
+  {
+    "id": 198,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T11:17:00",
+    "updated_at": "2026-01-01T11:17:00"
+  },
+  {
+    "id": 199,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T11:18:00",
+    "updated_at": "2026-01-01T11:18:00"
+  },
+  {
+    "id": 200,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T11:19:00",
+    "updated_at": "2026-01-01T11:19:00"
+  },
+  {
+    "id": 201,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T11:20:00",
+    "updated_at": "2026-01-01T11:20:00"
+  },
+  {
+    "id": 202,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T11:21:00",
+    "updated_at": "2026-01-01T11:21:00"
+  },
+  {
+    "id": 203,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T11:22:00",
+    "updated_at": "2026-01-01T11:22:00"
+  },
+  {
+    "id": 204,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T11:23:00",
+    "updated_at": "2026-01-01T11:23:00"
+  },
+  {
+    "id": 205,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T11:24:00",
+    "updated_at": "2026-01-01T11:24:00"
+  },
+  {
+    "id": 206,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T11:25:00",
+    "updated_at": "2026-01-01T11:25:00"
+  },
+  {
+    "id": 207,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T11:26:00",
+    "updated_at": "2026-01-01T11:26:00"
+  },
+  {
+    "id": 208,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T11:27:00",
+    "updated_at": "2026-01-01T11:27:00"
+  },
+  {
+    "id": 209,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T11:28:00",
+    "updated_at": "2026-01-01T11:28:00"
+  },
+  {
+    "id": 210,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T11:29:00",
+    "updated_at": "2026-01-01T11:29:00"
+  },
+  {
+    "id": 211,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T11:30:00",
+    "updated_at": "2026-01-01T11:30:00"
+  },
+  {
+    "id": 212,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T11:31:00",
+    "updated_at": "2026-01-01T11:31:00"
+  },
+  {
+    "id": 213,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T11:32:00",
+    "updated_at": "2026-01-01T11:32:00"
+  },
+  {
+    "id": 214,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T11:33:00",
+    "updated_at": "2026-01-01T11:33:00"
+  },
+  {
+    "id": 215,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T11:34:00",
+    "updated_at": "2026-01-01T11:34:00"
+  },
+  {
+    "id": 216,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T11:35:00",
+    "updated_at": "2026-01-01T11:35:00"
+  },
+  {
+    "id": 217,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T11:36:00",
+    "updated_at": "2026-01-01T11:36:00"
+  },
+  {
+    "id": 218,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T11:37:00",
+    "updated_at": "2026-01-01T11:37:00"
+  },
+  {
+    "id": 219,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T11:38:00",
+    "updated_at": "2026-01-01T11:38:00"
+  },
+  {
+    "id": 220,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T11:39:00",
+    "updated_at": "2026-01-01T11:39:00"
+  },
+  {
+    "id": 221,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T11:40:00",
+    "updated_at": "2026-01-01T11:40:00"
+  },
+  {
+    "id": 222,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T11:41:00",
+    "updated_at": "2026-01-01T11:41:00"
+  },
+  {
+    "id": 223,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T11:42:00",
+    "updated_at": "2026-01-01T11:42:00"
+  },
+  {
+    "id": 224,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T11:43:00",
+    "updated_at": "2026-01-01T11:43:00"
+  },
+  {
+    "id": 225,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T11:44:00",
+    "updated_at": "2026-01-01T11:44:00"
+  },
+  {
+    "id": 226,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T11:45:00",
+    "updated_at": "2026-01-01T11:45:00"
+  },
+  {
+    "id": 227,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T11:46:00",
+    "updated_at": "2026-01-01T11:46:00"
+  },
+  {
+    "id": 228,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T11:47:00",
+    "updated_at": "2026-01-01T11:47:00"
+  },
+  {
+    "id": 229,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T11:48:00",
+    "updated_at": "2026-01-01T11:48:00"
+  },
+  {
+    "id": 230,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T11:49:00",
+    "updated_at": "2026-01-01T11:49:00"
+  },
+  {
+    "id": 231,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T11:50:00",
+    "updated_at": "2026-01-01T11:50:00"
+  },
+  {
+    "id": 232,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T11:51:00",
+    "updated_at": "2026-01-01T11:51:00"
+  },
+  {
+    "id": 233,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T11:52:00",
+    "updated_at": "2026-01-01T11:52:00"
+  },
+  {
+    "id": 234,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T11:53:00",
+    "updated_at": "2026-01-01T11:53:00"
+  },
+  {
+    "id": 235,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T11:54:00",
+    "updated_at": "2026-01-01T11:54:00"
+  },
+  {
+    "id": 236,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T11:55:00",
+    "updated_at": "2026-01-01T11:55:00"
+  },
+  {
+    "id": 237,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T11:56:00",
+    "updated_at": "2026-01-01T11:56:00"
+  },
+  {
+    "id": 238,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T11:57:00",
+    "updated_at": "2026-01-01T11:57:00"
+  },
+  {
+    "id": 239,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T11:58:00",
+    "updated_at": "2026-01-01T11:58:00"
+  },
+  {
+    "id": 240,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T11:59:00",
+    "updated_at": "2026-01-01T11:59:00"
+  },
+  {
+    "id": 241,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T12:00:00",
+    "updated_at": "2026-01-01T12:00:00"
+  },
+  {
+    "id": 242,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T12:01:00",
+    "updated_at": "2026-01-01T12:01:00"
+  },
+  {
+    "id": 243,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T12:02:00",
+    "updated_at": "2026-01-01T12:02:00"
+  },
+  {
+    "id": 244,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T12:03:00",
+    "updated_at": "2026-01-01T12:03:00"
+  },
+  {
+    "id": 245,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T12:04:00",
+    "updated_at": "2026-01-01T12:04:00"
+  },
+  {
+    "id": 246,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T12:05:00",
+    "updated_at": "2026-01-01T12:05:00"
+  },
+  {
+    "id": 247,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T12:06:00",
+    "updated_at": "2026-01-01T12:06:00"
+  },
+  {
+    "id": 248,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T12:07:00",
+    "updated_at": "2026-01-01T12:07:00"
+  },
+  {
+    "id": 249,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T12:08:00",
+    "updated_at": "2026-01-01T12:08:00"
+  },
+  {
+    "id": 250,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T12:09:00",
+    "updated_at": "2026-01-01T12:09:00"
+  },
+  {
+    "id": 251,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T12:10:00",
+    "updated_at": "2026-01-01T12:10:00"
+  },
+  {
+    "id": 252,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T12:11:00",
+    "updated_at": "2026-01-01T12:11:00"
+  },
+  {
+    "id": 253,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T12:12:00",
+    "updated_at": "2026-01-01T12:12:00"
+  },
+  {
+    "id": 254,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T12:13:00",
+    "updated_at": "2026-01-01T12:13:00"
+  },
+  {
+    "id": 255,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T12:14:00",
+    "updated_at": "2026-01-01T12:14:00"
+  },
+  {
+    "id": 256,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T12:15:00",
+    "updated_at": "2026-01-01T12:15:00"
+  },
+  {
+    "id": 257,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T12:16:00",
+    "updated_at": "2026-01-01T12:16:00"
+  },
+  {
+    "id": 258,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T12:17:00",
+    "updated_at": "2026-01-01T12:17:00"
+  },
+  {
+    "id": 259,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T12:18:00",
+    "updated_at": "2026-01-01T12:18:00"
+  },
+  {
+    "id": 260,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T12:19:00",
+    "updated_at": "2026-01-01T12:19:00"
+  },
+  {
+    "id": 261,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T12:20:00",
+    "updated_at": "2026-01-01T12:20:00"
+  },
+  {
+    "id": 262,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T12:21:00",
+    "updated_at": "2026-01-01T12:21:00"
+  },
+  {
+    "id": 263,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T12:22:00",
+    "updated_at": "2026-01-01T12:22:00"
+  },
+  {
+    "id": 264,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T12:23:00",
+    "updated_at": "2026-01-01T12:23:00"
+  },
+  {
+    "id": 265,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T12:24:00",
+    "updated_at": "2026-01-01T12:24:00"
+  },
+  {
+    "id": 266,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T12:25:00",
+    "updated_at": "2026-01-01T12:25:00"
+  },
+  {
+    "id": 267,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T12:26:00",
+    "updated_at": "2026-01-01T12:26:00"
+  },
+  {
+    "id": 268,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T12:27:00",
+    "updated_at": "2026-01-01T12:27:00"
+  },
+  {
+    "id": 269,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T12:28:00",
+    "updated_at": "2026-01-01T12:28:00"
+  },
+  {
+    "id": 270,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T12:29:00",
+    "updated_at": "2026-01-01T12:29:00"
+  },
+  {
+    "id": 271,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T12:30:00",
+    "updated_at": "2026-01-01T12:30:00"
+  },
+  {
+    "id": 272,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T12:31:00",
+    "updated_at": "2026-01-01T12:31:00"
+  },
+  {
+    "id": 273,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T12:32:00",
+    "updated_at": "2026-01-01T12:32:00"
+  },
+  {
+    "id": 274,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T12:33:00",
+    "updated_at": "2026-01-01T12:33:00"
+  },
+  {
+    "id": 275,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T12:34:00",
+    "updated_at": "2026-01-01T12:34:00"
+  },
+  {
+    "id": 276,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T12:35:00",
+    "updated_at": "2026-01-01T12:35:00"
+  },
+  {
+    "id": 277,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T12:36:00",
+    "updated_at": "2026-01-01T12:36:00"
+  },
+  {
+    "id": 278,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T12:37:00",
+    "updated_at": "2026-01-01T12:37:00"
+  },
+  {
+    "id": 279,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T12:38:00",
+    "updated_at": "2026-01-01T12:38:00"
+  },
+  {
+    "id": 280,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T12:39:00",
+    "updated_at": "2026-01-01T12:39:00"
+  },
+  {
+    "id": 281,
+    "user_id": 10,
+    "role": "user",
+    "content": "Xin chào!",
+    "created_at": "2026-01-01T12:40:00",
+    "updated_at": "2026-01-01T12:40:00"
+  },
+  {
+    "id": 282,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Chào bạn! Mình có thể giúp gì?",
+    "created_at": "2026-01-01T12:41:00",
+    "updated_at": "2026-01-01T12:41:00"
+  },
+  {
+    "id": 283,
+    "user_id": 10,
+    "role": "user",
+    "content": "Hôm nay học gì vậy?",
+    "created_at": "2026-01-01T12:42:00",
+    "updated_at": "2026-01-01T12:42:00"
+  },
+  {
+    "id": 284,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Hôm nay bạn học về chủ đề giao tiếp nhé.",
+    "created_at": "2026-01-01T12:43:00",
+    "updated_at": "2026-01-01T12:43:00"
+  },
+  {
+    "id": 285,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi chưa hiểu bài này",
+    "created_at": "2026-01-01T12:44:00",
+    "updated_at": "2026-01-01T12:44:00"
+  },
+  {
+    "id": 286,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Để mình giải thích đơn giản hơn cho bạn.",
+    "created_at": "2026-01-01T12:45:00",
+    "updated_at": "2026-01-01T12:45:00"
+  },
+  {
+    "id": 287,
+    "user_id": 10,
+    "role": "user",
+    "content": "Giải thích lại giúp tôi với",
+    "created_at": "2026-01-01T12:46:00",
+    "updated_at": "2026-01-01T12:46:00"
+  },
+  {
+    "id": 288,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không sao, mình sẽ nói lại dễ hiểu hơn.",
+    "created_at": "2026-01-01T12:47:00",
+    "updated_at": "2026-01-01T12:47:00"
+  },
+  {
+    "id": 289,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cảm ơn bạn",
+    "created_at": "2026-01-01T12:48:00",
+    "updated_at": "2026-01-01T12:48:00"
+  },
+  {
+    "id": 290,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Không có gì 😊",
+    "created_at": "2026-01-01T12:49:00",
+    "updated_at": "2026-01-01T12:49:00"
+  },
+  {
+    "id": 291,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi muốn luyện thêm quiz",
+    "created_at": "2026-01-01T12:50:00",
+    "updated_at": "2026-01-01T12:50:00"
+  },
+  {
+    "id": 292,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình sẽ tạo thêm bài luyện tập cho bạn.",
+    "created_at": "2026-01-01T12:51:00",
+    "updated_at": "2026-01-01T12:51:00"
+  },
+  {
+    "id": 293,
+    "user_id": 10,
+    "role": "user",
+    "content": "Bài này khó quá",
+    "created_at": "2026-01-01T12:52:00",
+    "updated_at": "2026-01-01T12:52:00"
+  },
+  {
+    "id": 294,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Đúng rồi, phần này hơi khó lúc đầu.",
+    "created_at": "2026-01-01T12:53:00",
+    "updated_at": "2026-01-01T12:53:00"
+  },
+  {
+    "id": 295,
+    "user_id": 10,
+    "role": "user",
+    "content": "Cho ví dụ đi",
+    "created_at": "2026-01-01T12:54:00",
+    "updated_at": "2026-01-01T12:54:00"
+  },
+  {
+    "id": 296,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Ví dụ: bạn có thể nói như thế này...",
+    "created_at": "2026-01-01T12:55:00",
+    "updated_at": "2026-01-01T12:55:00"
+  },
+  {
+    "id": 297,
+    "user_id": 10,
+    "role": "user",
+    "content": "Tôi cần giúp đỡ",
+    "created_at": "2026-01-01T12:56:00",
+    "updated_at": "2026-01-01T12:56:00"
+  },
+  {
+    "id": 298,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Mình luôn sẵn sàng giúp bạn.",
+    "created_at": "2026-01-01T12:57:00",
+    "updated_at": "2026-01-01T12:57:00"
+  },
+  {
+    "id": 299,
+    "user_id": 10,
+    "role": "user",
+    "content": "OK hiểu rồi",
+    "created_at": "2026-01-01T12:58:00",
+    "updated_at": "2026-01-01T12:58:00"
+  },
+  {
+    "id": 300,
+    "user_id": 10,
+    "role": "assistant",
+    "content": "Tuyệt vời, bạn đã hiểu rồi đó!",
+    "created_at": "2026-01-01T12:59:00",
+    "updated_at": "2026-01-01T12:59:00"
+  }
+]

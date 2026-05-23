@@ -1,0 +1,105 @@
+.counter {
+  font-size: 16px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--accent-border);
+    background: #dbeafe; 
+  }
+}
+
+.hero {
+  @apply flex flex-col items-center justify-center py-10;
+
+  .base {
+    width: 140px;
+    z-index: 1;
+  }
+
+  .framework, .vite {
+    @apply static mt-4 h-10 w-auto transition-transform duration-200;
+    transform: none; /* Bỏ sạch xoay 3D */
+  }
+  
+  .framework:hover, .vite:hover {
+    transform: scale(1.05); 
+  }
+}
+
+#center {
+  @apply flex flex-col items-center gap-6 grow;
+  
+  @media (max-width: 1024px) {
+    @apply px-5 py-8 gap-4;
+  }
+}
+
+#next-steps {
+  @apply flex border-top border-[var(--border)] text-left;
+
+  & > div {
+    @apply flex-1 p-8;
+    @media (max-width: 1024px) {
+      @apply p-6;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    @apply flex-col text-center;
+  }
+}
+
+#docs {
+  border-right: 1px solid var(--border);
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+#next-steps ul {
+  @apply list-none p-0 flex gap-2 mt-8;
+
+  a {
+    color: var(--text-h);
+    font-size: 14px;
+    border-radius: 6px;
+    background: var(--social-bg);
+    @apply flex px-3 py-2 items-center gap-2 no-underline border border-slate-100;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #f1f5f9;
+      border-color: var(--accent);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    @apply mt-5 flex-wrap justify-center;
+    li { flex: 1 1 calc(50% - 8px); }
+    a { @apply w-full justify-center; }
+  }
+}
+
+.ticks {
+  @apply relative w-full border-t border-[var(--border)];
+  
+  &::before, &::after {
+    content: '';
+    @apply absolute -top-1 border-[4px] border-transparent;
+  }
+  &::before { left: 0; border-left-color: var(--border); }
+  &::after { right: 0; border-right-color: var(--border); }
+}
+
+#spacer {
+  height: 60px;
+  border-top: 1px solid var(--border);
+}

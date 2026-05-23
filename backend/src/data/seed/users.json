@@ -1,0 +1,22 @@
+[
+  { "username": "Trần Minh Tuấn", "email": "tuan.tran@gmail.com", "role": "student" },
+  { "username": "Trần Hữu Phúc", "email": "phuc.tran@gmail.com", "role": "student" },
+  { "username": "Trần Diệu Linh", "email": "linh2.tran@gmail.com", "role": "student" },
+  { "username": "Trần Nhật Minh", "email": "minh.tran@gmail.com", "role": "student" },
+  { "username": "Trần Thùy Dung", "email": "dung.tran@gmail.com", "role": "student" },
+  { "username": "Trần Văn Long", "email": "long.tran@gmail.com", "role": "student" },
+  { "username": "Trần Mai Anh", "email": "maianh.tran@gmail.com", "role": "student" },
+  { "username": "Trần Hoài Nam", "email": "hoainam.tran@gmail.com", "role": "student" },
+  { "username": "Trần Ánh Tuyết", "email": "tuyet.tran@gmail.com", "role": "student" },
+  { "username": "Trần Thanh Tùng", "email": "tung.tran@gmail.com", "role": "student" },
+   { "username": "Trần Minh Khang", "email": "khang.tran@gmail.com", "role": "student" },
+  { "username": "Trần Thị Ngọc Anh", "email": "anh.tran1@gmail.com", "role": "student" },
+  { "username": "Trần Hoàng Nam", "email": "nam.tran@gmail.com", "role": "student" },
+  { "username": "Trần Gia Bảo", "email": "bao.tran@gmail.com", "role": "student" },
+  { "username": "Trần Khánh Linh", "email": "linh.tran@gmail.com", "role": "student" },
+  { "username": "Trần Quốc Huy", "email": "huy.tran@gmail.com", "role": "student" },
+  { "username": "Trần Thu Trang", "email": "trang.tran@gmail.com", "role": "student" },
+  { "username": "Trần Bảo Ngọc", "email": "ngoc.tran@gmail.com", "role": "student" },
+  { "username": "Trần Đức Anh", "email": "ducanh.tran@gmail.com", "role": "student" },
+  { "username": "Trần Phương Thảo", "email": "thao.tran@gmail.com", "role": "student" }
+]
