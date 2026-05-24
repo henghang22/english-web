@@ -9,8 +9,17 @@ const sequelize = new Sequelize(
   process.env.DB_PASS,
   {
     host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
     dialect: 'mysql',
-    logging: false, // Set to console.log to see SQL queries
+
+    dialectOptions: {
+      ssl: {
+        rejectUnauthorized: true
+      }
+    },
+
+    logging: false,
+
     pool: {
       max: 5,
       min: 0,
@@ -23,7 +32,8 @@ const sequelize = new Sequelize(
 const connectDB = async () => {
   try {
     await sequelize.authenticate();
-    await sequelize.sync(); // Đồng bộ bình thường
+    await sequelize.sync();
+
     console.log('✅ MySQL Connected & Synced successfully.');
   } catch (error) {
     console.error('❌ Unable to connect to the database:', error);
