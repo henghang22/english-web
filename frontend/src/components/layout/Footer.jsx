@@ -8,10 +8,10 @@ const Footer = () => {
           
           <div className="text-center md:text-left">
             <h2 className="text-base font-bold uppercase tracking-tight">
-              EnglishPlatform
+              EnglishLMS
             </h2>
             <p className="text-[10px] text-blue-200 mt-1 font-medium">
-              Bản quyền thuộc về Dương Thị Hằng
+              By Dương Thị Hằng
             </p>
           </div>
 
