@@ -27,6 +27,30 @@ const seedData = async () => {
             role: 'admin'
         });
 
+        const teachers = await User.bulkCreate([
+            {
+                username: 'Nguyễn Văn An',
+                email: 'teacheran@gmail.com',
+                password: rawPassword,
+                role: 'teacher'
+            },
+            {
+                username: 'Trần Thị Bình',
+                email: 'teacherbinh@gmail.com',
+                password: rawPassword,
+                role: 'teacher'
+            },
+            {
+                username: 'Lê Văn Cường',
+                email: 'teachercuong@gmail.com',
+                password: rawPassword,
+                role: 'teacher'
+            }
+        ], {
+            individualHooks: true
+        });
+
+
         // 2. Users
         const studentUsers = await User.bulkCreate(usersData.map(u => ({
             ...u,
@@ -36,10 +60,12 @@ const seedData = async () => {
         console.log(`👤 Đã tạo ${studentUsers.length} học viên thật.`);
 
         // 3. Courses
-        const createdCourses = await Course.bulkCreate(coursesData.map(c => ({
-            ...c,
-            teacher_id: admin.id
-        })));
+        const createdCourses = await Course.bulkCreate(
+            coursesData.map(c => ({
+                ...c,
+                teacher_id: teachers[0].id
+            }))
+        );
 
         console.log(`📚 Đã tạo ${createdCourses.length} khóa học.`);
 

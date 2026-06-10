@@ -5,8 +5,11 @@ class AdminStatsController {
   getOverview = async (req, res, next) => {
     try {
       // 1. Đếm tổng số (Linh hoạt với role viết hoa/thường)
-      const totalStudents = await User.count({ 
-        where: { role: 'student' } 
+      const totalStudents = await User.count({
+        where: { role: 'student' }
+      });
+      const totalTeachers = await User.count({
+        where: { role: 'teacher' }
       });
       const totalCourses = await Course.count();
       const totalQuizzes = await Quiz.count();
@@ -25,9 +28,9 @@ class AdminStatsController {
           [sequelize.col('quiz.course_id'), 'courseId'],
           [sequelize.fn('COUNT', sequelize.col('QuizResult.id')), 'totalResults']
         ],
-        include: [{ 
-          model: Quiz, 
-          as: 'quiz', 
+        include: [{
+          model: Quiz,
+          as: 'quiz',
           attributes: ['title'],
           include: [{ model: Course, as: 'course', attributes: ['title'] }]
         }],
@@ -51,6 +54,7 @@ class AdminStatsController {
         data: {
           overview: {
             totalStudents,
+            totalTeachers,
             totalCourses,
             totalQuizzes,
             totalQuestions,
