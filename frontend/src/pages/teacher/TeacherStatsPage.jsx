@@ -48,32 +48,24 @@ const TeacherStatsPage = () => {
       value: stats?.totalCourses || 0, 
       icon: <BookOpen size={20} />, 
       color: 'bg-blue-50 border-blue-200 text-blue-600', 
-      trend: '+12%',
-      trendUp: true
     },
     { 
       label: 'Bài học', 
       value: stats?.totalLessons || 0, 
       icon: <Calendar size={20} />, 
       color: 'bg-indigo-50 border-indigo-200 text-indigo-600', 
-      trend: '+8%',
-      trendUp: true
     },
     { 
       label: 'Bộ Quiz', 
       value: stats?.totalQuizzes || 0, 
       icon: <HelpCircle size={20} />, 
       color: 'bg-orange-50 border-orange-200 text-orange-600', 
-      trend: '+5%',
-      trendUp: true
     },
     { 
       label: 'Lượt làm bài', 
       value: stats?.totalAttempts || 0, 
       icon: <Users size={20} />, 
       color: 'bg-red-50 border-red-200 text-red-600', 
-      trend: '+24%',
-      trendUp: true
     }
   ];
 
@@ -110,12 +102,8 @@ const TeacherStatsPage = () => {
             
             <div className="space-y-1">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">{card.label}</p>
-              <div className="flex items-end justify-between">
+              <div className="flex items-end">
                 <h3 className="text-2xl font-bold text-gray-800 tracking-tight">{card.value}</h3>
-                <div className={`flex items-center text-xs font-semibold px-1.5 py-0.5 rounded border ${card.trendUp ? 'bg-emerald-50 text-emerald-700 border-emerald-100' : 'bg-red-50 text-red-700 border-red-100'}`}>
-                  {card.trendUp ? <ArrowUpRight size={12} className="mr-0.5" /> : <ArrowDownRight size={12} className="mr-0.5" />}
-                  {card.trend}
-                </div>
               </div>
             </div>
           </div>

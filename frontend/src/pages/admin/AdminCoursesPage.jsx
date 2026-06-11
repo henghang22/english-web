@@ -179,8 +179,8 @@ const AdminCoursesPage = () => {
                 
                 <div className="flex items-center justify-between pt-4 border-t border-slate-100 mt-auto">
                   <div className="flex gap-2">
-                    <Link to={`/admin/courses/${course.id}/lessons`} className="p-1.5 text-blue-700 hover:bg-blue-50 rounded" title="Bài học"><PlayCircle size={18} /></Link>
-                    <Link to={`/admin/courses/${course.id}/quiz`} className="p-1.5 text-slate-600 hover:bg-slate-100 rounded" title="Quiz"><HelpCircle size={18} /></Link>
+                    <Link to={`/admin/courses/${course.id}/lessons`} className="p-1.5 text-blue-700 hover:bg-blue-50 rounded" title="Bài học"><PlayCircle size={18} />Bài học</Link>
+                    <Link to={`/admin/courses/${course.id}/quiz`} className="p-1.5 text-slate-600 hover:bg-slate-100 rounded" title="Quiz"><HelpCircle size={18} />Quiz</Link>
                   </div>
                   <div className="flex gap-1">
                     <button onClick={() => openEditModal(course)} className="p-1.5 text-slate-400 hover:text-blue-700 rounded"><Edit2 size={18} /></button>
