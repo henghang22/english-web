@@ -82,7 +82,7 @@ const DashboardPage = () => {
         {/* 3. Hoạt động gần đây */}
         <div className="space-y-3">
           <h2 className="text-base font-bold flex items-center gap-1.5 text-gray-800">
-            <Clock size={18} /> 
+            <Clock size={18} />
             <span>Hoạt động gần đây</span>
           </h2>
           <div className="bg-white border border-gray-300 rounded-sm overflow-hidden">
@@ -90,12 +90,39 @@ const DashboardPage = () => {
               data.recent_results.map((result, idx) => (
                 <div key={result.id} className={`p-4 flex items-center justify-between text-sm ${idx !== 0 ? 'border-t border-gray-200' : ''}`}>
                   <div className="flex items-center gap-3">
-                    <span className={`w-8 h-8 rounded-sm border flex items-center justify-center font-bold text-xs ${result.score >= 5 ? 'bg-green-50 text-green-700 border-green-200' : 'bg-red-50 text-red-700 border-red-200'}`}>
+                    <span
+                      className={`w-8 h-8 rounded-sm border flex items-center justify-center font-bold text-xs ${result.score >= 5
+                          ? 'bg-green-50 text-green-700 border-green-200'
+                          : 'bg-red-50 text-red-700 border-red-200'
+                        }`}
+                    >
                       {result.score}
                     </span>
-                    <span className="font-medium text-gray-700">{result.quiz?.title}</span>
+
+                    <div>
+                      <div className="font-medium text-gray-700">
+                        {result.quiz?.title}
+                      </div>
+
+                      <div className="text-xs text-gray-400 mt-1">
+                        Đúng {result.correct_answers}/{result.total_questions} câu •{" "}
+                        {Math.round(
+                          (result.correct_answers / result.total_questions) * 100
+                        )}%
+                      </div>
+                    </div>
                   </div>
-                  <span className="text-xs text-gray-400">{new Date(result.createdAt).toLocaleDateString('vi-VN')}</span>
+
+                  {/* Right side - ĐẠT / CHƯA ĐẠT */}
+                  <div
+                    className={`text-xs font-bold px-2 py-1 rounded-sm border ${result.score >= 5
+                        ? 'bg-green-50 text-green-700 border-green-200'
+                        : 'bg-red-50 text-red-700 border-red-200'
+                      }`}
+                  >
+                    {result.score >= 5 ? 'ĐẠT' : 'CHƯA ĐẠT'}
+                  </div>
+
                 </div>
               ))
             ) : (
