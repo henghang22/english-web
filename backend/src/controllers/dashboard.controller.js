@@ -35,7 +35,14 @@ class DashboardController {
           {
             model: Quiz,
             as: 'quiz',
-            attributes: ['id', 'title']
+            attributes: ['id', 'title'],
+            include: [
+              {
+                model: Course,
+                as: 'course',
+                attributes: ['id', 'title']
+              }
+            ]
           }
         ]
       });
@@ -71,7 +78,7 @@ class DashboardController {
         data: {
           stats: {
             enrolled_courses: coursesCount || 0,
-             completed_courses: completedCourses,
+            completed_courses: completedCourses,
             average_score: averageScore ? parseFloat(averageScore).toFixed(1) : 0
           },
           recent_results: recentResults,

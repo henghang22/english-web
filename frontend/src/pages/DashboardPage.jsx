@@ -92,16 +92,22 @@ const DashboardPage = () => {
                   <div className="flex items-center gap-3">
                     <span
                       className={`w-8 h-8 rounded-sm border flex items-center justify-center font-bold text-xs ${result.score >= 5
-                          ? 'bg-green-50 text-green-700 border-green-200'
-                          : 'bg-red-50 text-red-700 border-red-200'
+                        ? 'bg-green-50 text-green-700 border-green-200'
+                        : 'bg-red-50 text-red-700 border-red-200'
                         }`}
                     >
                       {result.score}
                     </span>
 
                     <div>
-                      <div className="font-medium text-gray-700">
-                        {result.quiz?.title}
+                      <div>
+                        <div className="font-medium text-gray-700">
+                          {result.quiz?.title}
+                        </div>
+
+                        <div className="text-xs text-gray-500">
+                          Khóa học: {result.quiz?.course?.title}
+                        </div>
                       </div>
 
                       <div className="text-xs text-gray-400 mt-1">
@@ -114,8 +120,8 @@ const DashboardPage = () => {
                   <div className="text-right">
                     <div
                       className={`text-xs font-bold px-2 py-1 rounded-sm border ${result.score >= 5
-                          ? 'bg-green-50 text-green-700 border-green-200'
-                          : 'bg-red-50 text-red-700 border-red-200'
+                        ? 'bg-green-50 text-green-700 border-green-200'
+                        : 'bg-red-50 text-red-700 border-red-200'
                         }`}
                     >
                       {result.score >= 5 ? 'ĐẠT' : 'CHƯA ĐẠT'}
