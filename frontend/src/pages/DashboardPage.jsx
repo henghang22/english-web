@@ -56,7 +56,7 @@ const DashboardPage = () => {
           </Link>
           <Link to="/ai-chat" className="bg-white border border-gray-300 text-gray-700 px-6 py-2.5 rounded-sm font-bold text-xs uppercase tracking-wide hover:bg-gray-50 flex items-center no-underline cursor-pointer">
             <MessageSquare size={14} className="mr-1.5 text-blue-700" />
-            <span>Trợ lý học thuật</span>
+            <span>Trợ giảng AI</span>
           </Link>
         </div>
       </div>
@@ -65,9 +65,9 @@ const DashboardPage = () => {
         {/* 2. Stats Grid - Đổi từ shadow phức tạp sang border phẳng xám */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[
-            { label: "Khóa học đăng ký", val: data?.stats?.enrolled_courses, icon: <BookOpen size={20} /> },
+            { label: "Khóa học tham gia", val: data?.stats?.enrolled_courses, icon: <BookOpen size={20} /> },
             { label: "Điểm trung bình", val: data?.stats?.average_score, icon: <Target size={20} /> },
-            { label: "Chứng chỉ đạt được", val: data?.stats?.completed_courses, icon: <Trophy size={20} /> }
+            { label: "Khóa học đã hoàn thành", val: data?.stats?.completed_courses, icon: <Trophy size={20} /> }
           ].map((item, i) => (
             <div key={i} className="bg-white p-6 border border-gray-300 flex items-center space-x-4 rounded-sm">
               <div className="text-gray-400 bg-gray-100 p-3 rounded-sm border border-gray-200">{item.icon}</div>

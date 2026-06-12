@@ -1,4 +1,4 @@
-const { QuizResult, Course, User, Lesson, Quiz } = require('../models');
+const { QuizResult, Course, User, Lesson, Quiz, UserProgress } = require('../models');
 const { sequelize } = require('../config/database');
 
 class DashboardController {
@@ -11,7 +11,7 @@ class DashboardController {
         where: { user_id: userId },
         include: [{ model: Quiz, as: 'quiz', attributes: ['course_id'] }]
       });
-      
+
       const uniqueCourseIds = new Set(results.map(r => r.quiz?.course_id).filter(id => id));
       const coursesCount = uniqueCourseIds.size;
 
@@ -23,7 +23,7 @@ class DashboardController {
         where: { user_id: userId },
         raw: true
       });
-      
+
       const averageScore = avgResult[0]?.avgScore || 0;
 
       // 3. Kết quả thi gần đây
@@ -32,30 +32,49 @@ class DashboardController {
         limit: 5,
         order: [['createdAt', 'DESC']],
         include: [
-          { 
-            model: Quiz, 
+          {
+            model: Quiz,
             as: 'quiz',
             attributes: ['id', 'title']
           }
         ]
       });
 
-      // 4. Khóa học gợi ý
-      const recommendedCourses = await Course.findAll({
-        limit: 3,
-        order: [['createdAt', 'DESC']]
+      // 4. Số khóa học hoàn thành
+      const allCourses = await Lesson.findAll({
+        attributes: [
+          'course_id',
+          [sequelize.fn('COUNT', sequelize.col('id')), 'total_lessons']
+        ],
+        group: ['course_id'],
+        raw: true
       });
+
+      let completedCourses = 0;
+
+      for (const course of allCourses) {
+        const completedLessons = await UserProgress.count({
+          where: {
+            user_id: userId,
+            course_id: course.course_id,
+            is_completed: true
+          }
+        });
+
+        if (completedLessons >= Number(course.total_lessons)) {
+          completedCourses++;
+        }
+      }
 
       res.json({
         status: 'success',
         data: {
           stats: {
             enrolled_courses: coursesCount || 0,
-            completed_courses: 0,
+             completed_courses: completedCourses,
             average_score: averageScore ? parseFloat(averageScore).toFixed(1) : 0
           },
           recent_results: recentResults,
-          recommended_courses: recommendedCourses
         }
       });
     } catch (error) {
