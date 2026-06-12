@@ -105,24 +105,32 @@ const DashboardPage = () => {
                       </div>
 
                       <div className="text-xs text-gray-400 mt-1">
-                        Đúng {result.correct_answers}/{result.total_questions} câu •{" "}
-                        {Math.round(
-                          (result.correct_answers / result.total_questions) * 100
-                        )}%
+                        Đúng {result.correct_answers}/{result.total_questions} câu
                       </div>
                     </div>
                   </div>
 
-                  {/* Right side - ĐẠT / CHƯA ĐẠT */}
-                  <div
-                    className={`text-xs font-bold px-2 py-1 rounded-sm border ${result.score >= 5
-                        ? 'bg-green-50 text-green-700 border-green-200'
-                        : 'bg-red-50 text-red-700 border-red-200'
-                      }`}
-                  >
-                    {result.score >= 5 ? 'ĐẠT' : 'CHƯA ĐẠT'}
-                  </div>
+                  {/* Right */}
+                  <div className="text-right">
+                    <div
+                      className={`text-xs font-bold px-2 py-1 rounded-sm border ${result.score >= 5
+                          ? 'bg-green-50 text-green-700 border-green-200'
+                          : 'bg-red-50 text-red-700 border-red-200'
+                        }`}
+                    >
+                      {result.score >= 5 ? 'ĐẠT' : 'CHƯA ĐẠT'}
+                    </div>
 
+                    <div className="text-[10px] text-gray-400 mt-1">
+                      {new Date(result.createdAt).toLocaleString('vi-VN', {
+                        day: '2-digit',
+                        month: '2-digit',
+                        year: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                      })}
+                    </div>
+                  </div>
                 </div>
               ))
             ) : (
