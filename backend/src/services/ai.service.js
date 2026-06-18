@@ -5,30 +5,13 @@ class AIService {
     try {
       const apiKey = process.env.GEMINI_API_KEY;
 
-      // 1. Dò tìm danh sách model thực tế
-      let availableModels = [];
-
-      try {
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1/models?key=${apiKey}`);
-        const data = await response.json();
-        availableModels = data.models?.map(m => m.name) || [];
-        console.log('--- AI Auto-Detect ---');
-        console.log('Models khả dụng:', availableModels.join(', '));
-      } catch (e) {
-        console.error('Không thể quét model:', e.message);
-      }
-
-      if (availableModels.length === 0) {
-        throw new Error('Key của bạn không có quyền truy cập bất kỳ model nào. Hãy kiểm tra lại "Generative Language API" trong Google Cloud.');
-      }
-
-      // 2. Chọn model tốt nhất (ưu tiên flash, nếu không thì lấy cái đầu tiên)
-      // Loại bỏ prefix "models/" nếu có vì thư viện sẽ tự thêm
-      const bestModelName = (availableModels.find(m => m.includes('flash')) || availableModels[0]).replace('models/', '');
-      console.log('Đang sử dụng model:', bestModelName);
-
       const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: bestModelName });
+
+      const model = genAI.getGenerativeModel({
+        model: 'gemini-2.5-flash'
+      });
+
+      console.log('Đang sử dụng model: gemini-2.5-flash');
 
       const systemPrompt = `Bạn là một trợ lý AI hàng đầu cho học tiếng Anh. Hãy giúp học viên học tiếng Anh một cách hấp dẫn và 
         hiệu quả. Trả lời bằng tiếng Việt hoặc tiếng Anh tùy theo yêu cầu. Luôn cung cấp ví dụ và giải thích chi tiết. Nếu người học
