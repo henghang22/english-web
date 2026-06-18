@@ -72,7 +72,7 @@ class AIController {
   analyzeResult = async (req, res, next) => {
     try {
       const { quizTitle, questions } = req.body;
-      
+
       const prompt = `
         Học viên vừa làm SAI các câu hỏi sau trong bài thi "${quizTitle}".
         Hãy giải thích chi tiết cho từng câu để học viên hiểu tại sao sai.
@@ -83,6 +83,11 @@ class AIController {
             Học viên chọn: ${q.userAnswer}
             Đáp án đúng: ${q.correctAnswer}
         `).join('\n')}
+        CÁCH TRẢ LỜI:
+        Câu trả lời phải giải thích theo dạng:
+          (1) vì sao đáp án đúng đúng
+          (2) vì sao các đáp án còn lại sai (gộp chung, không tách riêng từng dòng)
+        Viết tự nhiên, ngắn gọn, dễ hiểu.
 
         YÊU CẦU BẮT BUỘC: 
         Trả về kết quả dưới dạng JSON object duy nhất, key là ID câu hỏi, value là lời giải thích ngắn gọn, súc tích (khoảng 2-3 câu).
@@ -90,12 +95,12 @@ class AIController {
       `;
 
       const aiResponse = await aiService.generateResponse(prompt, "Bạn là một máy chủ trả về JSON giải thích bài thi.");
-      
+
       const jsonMatch = aiResponse.match(/\{[\s\S]*\}/);
       if (!jsonMatch) {
         throw new Error('AI không trả về dữ liệu JSON hợp lệ');
       }
-      
+
       const analysisMap = JSON.parse(jsonMatch[0]);
 
       res.json({
